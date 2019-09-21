@@ -4,6 +4,7 @@
 
 .store {
   max-width: 80em;
+  padding: 0.354em;
 
   ul.catalog {
     border-top: solid 0.25em;
@@ -32,6 +33,24 @@
 
       .price {
         font-size: 1.414em;
+      }
+
+      form, div {
+        display: inline;
+      }
+      
+      input[type="submit"] {
+        background-color: #282;
+        border-radius: 0.354em;
+        border: solid thin #141;
+        color: white;
+        font-size: 1em;
+        padding: 0.354em 1em;
+        transition: 0.3s background-color ease-in-out;
+
+        &:hover {
+          background-color: #141;
+        }
       }
     }
   }
